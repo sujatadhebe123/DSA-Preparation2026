@@ -51,8 +51,8 @@ int main()
     head->next->next=new Node(30);
     head->next->next->next=new Node(80);
      int result=sl(head);
-     cout<<endl;
+     
     display(head);
     cout<<endl;
-    cout<<"second largest element in linkedlist"<<result<<endl;
+    cout<<"second largest element in linkedlist="<<result<<endl;
 }
